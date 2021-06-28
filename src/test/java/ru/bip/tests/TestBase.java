@@ -12,8 +12,6 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.extension.ExtendWith;
 
-import static com.codeborne.selenide.Selenide.open;
-
 
 @ExtendWith({AllureJunit5.class})
 public class TestBase {
@@ -31,7 +29,7 @@ public class TestBase {
 
         AllureAttachments.addScreenshotAs("Last screenshot");
         AllureAttachments.addPageSource();
-//        AllureAttachments.attachNetwork(); // todo
+//        AllureAttachments.attachNetwork();
         AllureAttachments.addBrowserConsoleLogs();
 
         Selenide.closeWebDriver();
