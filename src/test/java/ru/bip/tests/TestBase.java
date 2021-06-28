@@ -12,9 +12,13 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.extension.ExtendWith;
 
+import static com.codeborne.selenide.Selenide.open;
+
 
 @ExtendWith({AllureJunit5.class})
 public class TestBase {
+
+
     @BeforeAll
     static void setUp() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
@@ -36,4 +40,7 @@ public class TestBase {
             AllureAttachments.addVideo(sessionId);
         }
     }
+
+
+
 }
