@@ -1,3 +1,13 @@
+<a href="https://bip.ru/">
+  <img src="https://bip.ru/static/assets/image/logo-bip.svg" alt="Лого bip.ru" title="Bip" align="right" height="60" />
+</a>
+
+#
+# Сравните цены страховых и оформите полис ОСАГО онлайн на [bip.ru](https://bip.ru/)
+## Наша цель — сделать лучший online-сервис по автострахованию ОСАГО и КАСКО.
+Большой опыт работы с mobile и web продуктами — наше преимущество. Уже 7 лет мы создаем сервисы для автовладельцев и делаем это хорошо.
+
+### <img src = D:\Teach\bip-test\src\test\resources\img\homepage.png>
 
 # USAGE examples
 
