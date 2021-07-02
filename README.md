@@ -6,16 +6,29 @@
 # Сравните цены страховых и оформите полис ОСАГО онлайн на [bip.ru](https://bip.ru/)
 ## Наша цель — сделать лучший online-сервис по автострахованию ОСАГО и КАСКО.
 Большой опыт работы с mobile и web продуктами — наше преимущество. Уже 7 лет мы создаем сервисы для автовладельцев и делаем это хорошо.
+
+##Проводится проверка работоспособности сайта и внутреннего функционала
+
 ### Открывается главная страница:
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/homepage.png">
 
 ### Проверка заголовка страницы:
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/Page_title.jpg">
+<img src = "https://tenor.com/view/gif-22189307">
 
 ### Проверка сервисов:
 1) Калькулятор ОСАГО
    
    <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/test.mp4">
+2) Коэффициенты ОСАГО
+
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/test.mp4">
+3) Карта штрафов ГИБДД
+
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/map.png">
+
+4) Журналы консоли не должны содержать текст "СЕРЬЕЗНЫЕ"
+
+
 
 # USAGE examples
 
