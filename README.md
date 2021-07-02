@@ -10,7 +10,8 @@
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/homepage.png">
 
 ### Открывается главная страница:
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/Page title.mp4">
+![GIF demo](img/Page title.mp4)
+
 ### Открывается главная страница:
 
 # USAGE examples
