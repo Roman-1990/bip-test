@@ -13,6 +13,9 @@
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/Page_title.jpg">
 
 ### Проверка сервисов:
+1) Калькулятор ОСАГО
+   
+   <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/test.mp4">
 
 # USAGE examples
 
