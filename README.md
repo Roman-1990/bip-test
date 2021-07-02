@@ -6,8 +6,12 @@
 # Сравните цены страховых и оформите полис ОСАГО онлайн на [bip.ru](https://bip.ru/)
 ## Наша цель — сделать лучший online-сервис по автострахованию ОСАГО и КАСКО.
 Большой опыт работы с mobile и web продуктами — наше преимущество. Уже 7 лет мы создаем сервисы для автовладельцев и делаем это хорошо.
-
+### Открывается главная страница:
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/homepage.png">
+
+### Открывается главная страница:
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/Page title.mp4">
+### Открывается главная страница:
 
 # USAGE examples
 
