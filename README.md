@@ -13,7 +13,7 @@
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/homepage.png">
 
 ### Проверка заголовка страницы:
-<img src = "https://tenor.com/view/gif-22189307">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/Page_title.gif">
 
 ### Проверка сервисов:
 1) Калькулятор ОСАГО
