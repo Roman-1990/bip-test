@@ -18,10 +18,10 @@
 ### Проверка сервисов:
 1) Калькулятор ОСАГО
    
-   <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/test.mp4">
+   <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/test.gif">
 2) Коэффициенты ОСАГО
 
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/test.mp4">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/Coefficients.png">
 3) Карта штрафов ГИБДД
 
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/map.png">
@@ -47,6 +47,7 @@ Run tests with filled remote.properties:
 ```bash
 gradle clean test
 ```
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/terminal.gif">
 
 Run tests with not filled remote.properties:
 ```bash

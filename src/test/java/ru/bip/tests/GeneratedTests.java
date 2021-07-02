@@ -1,5 +1,7 @@
 package ru.bip.tests;
 
+import com.codeborne.selenide.Configuration;
+import org.junit.jupiter.api.BeforeAll;
 import ru.bip.helpers.DriverUtils;
 import com.codeborne.selenide.Condition;
 
