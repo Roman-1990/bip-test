@@ -9,10 +9,10 @@
 ### Открывается главная страница:
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/homepage.png">
 
-### Открывается главная страница:
-![GIF demo](img/Page title.mp4)
+### Проверка заголовка страницы:
+![screenshot](https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/Page_title.gif)
 
-### Открывается главная страница:
+### Проверка сервисов:
 
 # USAGE examples
 
