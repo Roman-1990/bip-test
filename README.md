@@ -10,7 +10,7 @@
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/homepage.png">
 
 ### Проверка заголовка страницы:
-![screenshot](https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/Page_title.gif)
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/Page_title.jpg">
 
 ### Проверка сервисов:
 
