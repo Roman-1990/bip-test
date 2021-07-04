@@ -10,7 +10,7 @@
 _____________________________________________________________________________________
 
 
-##Проводится проверка работоспособности сайта и внутреннего функционала
+## Проводится проверка работоспособности сайта и внутреннего функционала
 
 ### Открывается главная страница:
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/homepage.png">
@@ -59,7 +59,7 @@ gradle clean -DremoteDriverUrl=https://user1:1234@selenoid.autotests.cloud/wd/hu
 ```
 
 
-##:robot:Отправка оповещения о прохождении теста в <img src = "https://starchenkov.pro/qa-guru/img/skills/Telegram.svg" width = "30">
+## :robot:Отправка оповещения о прохождении теста в <img src = "https://starchenkov.pro/qa-guru/img/skills/Telegram.svg" width = "30">
 
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/telegrambot.png">
 
@@ -68,7 +68,7 @@ gradle clean -DremoteDriverUrl=https://user1:1234@selenoid.autotests.cloud/wd/hu
 allure serve build/allure-results
 ```
 
-##Анализ результатов через Allure Reports: <a href ="https://jenkins.autotests.cloud/job/bip-test/7/allure/#suites/389c19e545ecb9bf8310362676e286fe/3420db8c7e063d62/">
+## Анализ результатов через Allure Reports: <a href ="https://jenkins.autotests.cloud/job/bip-test/7/allure/#suites/389c19e545ecb9bf8310362676e286fe/3420db8c7e063d62/">
 
 1) Просмотр последнего скриншота; :eyes: :framed_picture:
 2) Просмотр источника страницы; :eyes:
@@ -78,13 +78,13 @@ allure serve build/allure-results
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/allure.png">
 
 
-##Разнообразие тестов (ручной, автоматизированный) в Allure TestOps
+## Разнообразие тестов (ручной, автоматизированный) в Allure TestOps
 
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/AllureTestOps.png">
 
 
 
-##Визуализация итогов пройденных тестов в Allure TestOps
+## Визуализация итогов пройденных тестов в Allure TestOps
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/grafana.png">
 
 :heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
