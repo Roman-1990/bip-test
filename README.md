@@ -8,6 +8,8 @@
 ## Наша цель — сделать лучший online-сервис по автострахованию ОСАГО и КАСКО.
 Большой опыт работы с mobile и web продуктами — наше преимущество. Уже 7 лет мы создаем сервисы для автовладельцев и делаем это хорошо.
 _____________________________________________________________________________________
+
+
 ##Проводится проверка работоспособности сайта и внутреннего функционала
 
 ### Открывается главная страница:
@@ -56,8 +58,9 @@ gradle clean test
 gradle clean -DremoteDriverUrl=https://user1:1234@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
 ```
 
-##Отправка оповещения о прохождении теста в <img src = "https://starchenkov.pro/qa-guru/img/skills/Telegram.svg" width = "30">
-:robot:
+
+##:robot:Отправка оповещения о прохождении теста в <img src = "https://starchenkov.pro/qa-guru/img/skills/Telegram.svg" width = "30">
+
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/telegrambot.png">
 
 Подавайте отчет allure report:
@@ -74,9 +77,12 @@ allure serve build/allure-results
    </a>
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/allure.png">
 
+
 ##Разнообразие тестов (ручной, автоматизированный) в Allure TestOps
 
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/AllureTestOps.png">
+
+
 
 ##Визуализация итогов пройденных тестов в Allure TestOps
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/grafana.png">
