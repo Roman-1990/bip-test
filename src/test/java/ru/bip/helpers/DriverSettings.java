@@ -15,8 +15,13 @@ public class DriverSettings {
         Configuration.browserSize = Project.config.browserSize();
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
+        ChromeOptions chromeOptions = new ChromeOptions();
 
-        ChromeOptions chromeOptions = null;
+        chromeOptions.addArguments("--no-sandbox");
+        chromeOptions.addArguments("--disable-infobars");
+        chromeOptions.addArguments("--disable-popup-blocking");
+        chromeOptions.addArguments("--disable-notifications");
+        chromeOptions.addArguments("--lang=en-en");
         if (Project.isWebMobile()) { // for chrome only
             chromeOptions = new ChromeOptions();
             Map<String, Object> mobileDevice = new HashMap<>();

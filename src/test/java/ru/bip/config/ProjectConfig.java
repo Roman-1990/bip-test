@@ -9,6 +9,18 @@ import org.aeonbits.owner.Config;
 })
 public interface ProjectConfig extends Config {
 
+    @DefaultValue("selenoid.url")
+    @Key("selenoid.url")
+    String selenoidUrl();
+
+    @DefaultValue("username")
+    @Key("username")
+    String username();
+
+    @DefaultValue("password")
+    @Key("password")
+    String password();
+
     @DefaultValue("chrome")
     @Key("browser")
     String browser();
