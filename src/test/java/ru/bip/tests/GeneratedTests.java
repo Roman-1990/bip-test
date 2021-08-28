@@ -52,9 +52,9 @@ public class GeneratedTests extends TestBase {
             $(".Input_field__2Zdfy",0).val("г Москва").pressEnter();
             $(".InputSelect_arrow__xf645", 1).click();
             $(".Input_field__2Zdfy", 1).val("120").pressEnter();
-            $(".InputSelect_arrow__xf645", 3).click();
-            $(".Input_field__2Zdfy", 3).val("30").pressEnter();
-            $(".InputSelect_arrow__xf645", 3).click();
+            $(".InputSelect_dropdown__386hc", 2).click();
+            $(".Input_field__2Zdfy", 2).val("30").pressEnter();
+
         });
     }
 
