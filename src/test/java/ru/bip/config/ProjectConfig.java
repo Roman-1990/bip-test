@@ -5,10 +5,21 @@ import org.aeonbits.owner.Config;
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
         "system:properties",
-        "classpath:config/local.properties",
-        "classpath:config/remote.properties"
+        "classpath:config/local.properties"
 })
 public interface ProjectConfig extends Config {
+
+    @DefaultValue("selenoid.url")
+    @Key("selenoid.url")
+    String selenoidUrl();
+
+    @DefaultValue("username")
+    @Key("username")
+    String username();
+
+    @DefaultValue("password")
+    @Key("password")
+    String password();
 
     @DefaultValue("chrome")
     @Key("browser")

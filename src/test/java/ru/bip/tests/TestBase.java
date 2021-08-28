@@ -1,11 +1,12 @@
 package ru.bip.tests;
 
+import com.codeborne.selenide.logevents.SelenideLogger;
 import ru.bip.config.Project;
 import ru.bip.helpers.AllureAttachments;
 import ru.bip.helpers.DriverSettings;
 import ru.bip.helpers.DriverUtils;
 import com.codeborne.selenide.Selenide;
-import com.codeborne.selenide.logevents.SelenideLogger;
+
 import io.qameta.allure.junit5.AllureJunit5;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
@@ -38,7 +39,6 @@ public class TestBase {
             AllureAttachments.addVideo(sessionId);
         }
     }
-
 
 
 }

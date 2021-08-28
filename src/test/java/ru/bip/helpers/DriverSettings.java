@@ -1,15 +1,14 @@
 package ru.bip.helpers;
 
-import ru.bip.config.Project;
 import com.codeborne.selenide.Configuration;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import ru.bip.config.Project;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class DriverSettings {
-
     public static void configure() {
         Configuration.browser = Project.config.browser();
         Configuration.browserVersion = Project.config.browserVersion();
@@ -17,8 +16,9 @@ public class DriverSettings {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
+        ChromeOptions chromeOptions = null;
         if (Project.isWebMobile()) { // for chrome only
-            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions = new ChromeOptions();
             Map<String, Object> mobileDevice = new HashMap<>();
             mobileDevice.put("deviceName", Project.config.browserMobileView());
             chromeOptions.setExperimentalOption("mobileEmulation", mobileDevice);
@@ -31,6 +31,7 @@ public class DriverSettings {
             Configuration.remote = Project.config.remoteDriverUrl();
         }
 
+        capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
         Configuration.browserCapabilities = capabilities;
     }
 }

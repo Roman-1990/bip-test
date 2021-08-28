@@ -2,7 +2,8 @@ package ru.bip.helpers;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
@@ -12,6 +13,7 @@ import java.net.URL;
 import static com.codeborne.selenide.Selenide.sleep;
 
 public class AllureAttachments {
+    public static final Logger LOGGER = LoggerFactory.getLogger(AllureAttachments.class);
 
     @Attachment(value = "{attachName}", type = "text/plain")
     private static String addMessage(String attachName, String text) {
@@ -43,9 +45,9 @@ public class AllureAttachments {
                     videoInputStream = videoUrl.openStream();
                     break;
                 } catch (FileNotFoundException e) {
-                    sleep(3000);
+                    sleep(1000);
                 } catch (IOException e) {
-                    Logging.LOGGER.warn("[ALLURE VIDEO ATTACHMENT ERROR] Cant attach allure video, {}", videoUrl);
+                    LOGGER.warn("[ALLURE VIDEO ATTACHMENT ERROR] Cant attach allure video, {}", videoUrl);
                     e.printStackTrace();
                 }
             }
