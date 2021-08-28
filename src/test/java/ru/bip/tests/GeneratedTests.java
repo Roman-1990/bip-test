@@ -49,7 +49,7 @@ public class GeneratedTests extends TestBase {
 
 
             $(".InputSelect_arrow__xf645",0).click();
-            $(".Input_field__2Zdfy",0).val("г Москва").click();
+            $(".Input_field__2Zdfy",0).val("г Москва").pressEnter();
             $(".InputSelect_arrow__xf645", 1).click();
             $(".Input_field__2Zdfy", 1).val("120").pressEnter();
             $(".InputSelect_arrow__xf645", 3).click();
