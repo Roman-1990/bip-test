@@ -1,4 +1,4 @@
-package ru.bip.tests;
+package ru.bip.tests.web;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
