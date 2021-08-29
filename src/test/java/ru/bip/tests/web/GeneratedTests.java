@@ -1,5 +1,10 @@
-package ru.bip.tests;
+package ru.bip.tests.web;
 
+import io.qameta.allure.Owner;
+import org.junit.jupiter.api.Tag;
+import ru.bip.annotations.JiraIssue;
+import ru.bip.annotations.JiraIssues;
+import ru.bip.annotations.Layer;
 import ru.bip.helpers.DriverUtils;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -9,12 +14,16 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
+@Owner("roman")
+@Layer("Web")
 
 public class GeneratedTests extends TestBase {
 
     static final String BASE_URL = "https://bip.ru";
 
     @Test
+    @JiraIssues({@JiraIssue("RK-08")})
+    @Tag("web")
     @DisplayName("Открытие и проверка надписи на сайте")
     void generatedTest() {
         step("Открыть 'https://bip.ru'", () -> {
@@ -28,6 +37,8 @@ public class GeneratedTests extends TestBase {
     }
 
     @Test
+    @JiraIssues({@JiraIssue("RK-09")})
+    @Tag("web")
     @DisplayName("Page title should have header text")
     void titleTest() {
         step("Open url 'https://bip.ru'", () ->
@@ -42,14 +53,16 @@ public class GeneratedTests extends TestBase {
     }
 
     @Test
+    @JiraIssues({@JiraIssue("RK-10")})
+    @Tag("web")
     @DisplayName("Тест сервиса 'Калькулятор ОСАГО'")
     void menuTest() {
         step("Тест сервиса 'Калькулятор ОСАГО'", () -> {
             open(BASE_URL + "/kalkulyator");
 
 
-            $(".InputSelect_arrow__xf645",0).click();
-            $(".Input_field__2Zdfy",0).val("г Москва").pressEnter();
+            $(".InputSelect_arrow__xf645", 0).click();
+            $(".Input_field__2Zdfy", 0).val("г Москва").pressEnter();
             $(".InputSelect_arrow__xf645", 1).click();
             $(".Input_field__2Zdfy", 1).val("120").pressEnter();
             $(".InputSelect_dropdown__386hc", 2).click();
@@ -59,6 +72,8 @@ public class GeneratedTests extends TestBase {
     }
 
     @Test
+    @JiraIssues({@JiraIssue("RK-11")})
+    @Tag("web")
     @DisplayName("Тест сервиса 'Коэффициенты ОСАГО'")
     void testCoefficients() {
         step("Тест сервиса 'Коэффициенты ОСАГО'", () -> {
@@ -68,6 +83,8 @@ public class GeneratedTests extends TestBase {
     }
 
     @Test
+    @JiraIssues({@JiraIssue("RK-12")})
+    @Tag("web")
     @DisplayName("Тест сервиса 'Карта штрафов ГИБДД'")
     void testShtrafyOsagoMap() {
         step("Тест сервиса 'Карта штрафов ГИБДД'", () -> {
@@ -78,6 +95,8 @@ public class GeneratedTests extends TestBase {
     }
 
     @Test
+    @JiraIssues({@JiraIssue("RK-13")})
+    @Tag("web")
     @DisplayName("Page console log should not have errors")
     void consoleShouldNotHaveErrorsTest() {
         step("Open url 'https://bip.ru/'", () ->
