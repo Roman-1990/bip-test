@@ -1,5 +1,6 @@
 package ru.bip.tests.web;
 
+import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.Tag;
 import ru.bip.annotations.JiraIssue;
@@ -16,14 +17,14 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @Owner("roman")
 @Layer("Web")
-
+@Feature("Web")
 public class GeneratedTests extends TestBase {
 
     static final String BASE_URL = "https://bip.ru";
 
     @Test
     @JiraIssues({@JiraIssue("RK-08")})
-    @Tag("web")
+    @Tag("Web")
     @DisplayName("Открытие и проверка надписи на сайте")
     void generatedTest() {
         step("Открыть 'https://bip.ru'", () -> {
@@ -38,8 +39,8 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @JiraIssues({@JiraIssue("RK-09")})
-    @Tag("web")
-    @DisplayName("Page title should have header text")
+    @Tag("Web")
+    @DisplayName("Заголовок страницы должен содержать текст заголовка")
     void titleTest() {
         step("Open url 'https://bip.ru'", () ->
                 open(BASE_URL));
@@ -54,7 +55,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @JiraIssues({@JiraIssue("RK-10")})
-    @Tag("web")
+    @Tag("Web")
     @DisplayName("Тест сервиса 'Калькулятор ОСАГО'")
     void menuTest() {
         step("Тест сервиса 'Калькулятор ОСАГО'", () -> {
@@ -73,7 +74,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @JiraIssues({@JiraIssue("RK-11")})
-    @Tag("web")
+    @Tag("Web")
     @DisplayName("Тест сервиса 'Коэффициенты ОСАГО'")
     void testCoefficients() {
         step("Тест сервиса 'Коэффициенты ОСАГО'", () -> {
@@ -84,7 +85,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @JiraIssues({@JiraIssue("RK-12")})
-    @Tag("web")
+    @Tag("Web")
     @DisplayName("Тест сервиса 'Карта штрафов ГИБДД'")
     void testShtrafyOsagoMap() {
         step("Тест сервиса 'Карта штрафов ГИБДД'", () -> {
@@ -96,8 +97,8 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @JiraIssues({@JiraIssue("RK-13")})
-    @Tag("web")
-    @DisplayName("Page console log should not have errors")
+    @Tag("Web")
+    @DisplayName("Журнал страницы консоли не должен содержать ошибок")
     void consoleShouldNotHaveErrorsTest() {
         step("Open url 'https://bip.ru/'", () ->
                 open("https://bip.ru/"));
