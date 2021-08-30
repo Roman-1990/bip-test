@@ -21,8 +21,8 @@ import static org.hamcrest.core.Is.is;
 public class ApiTests {
 
     @Test
-    @JiraIssues({@JiraIssue("RK-01")})
     @Tag("Api")
+    @JiraIssues({@JiraIssue("RK-01")})
     @Description("Main page")
     @DisplayName("List user test")
     void listUserTest() {
@@ -34,8 +34,8 @@ public class ApiTests {
     }
 
     @Test
-    @JiraIssues({@JiraIssue("RK-02")})
     @Tag("Api")
+    @JiraIssues({@JiraIssue("RK-02")})
     @Description("Main page")
     @DisplayName("Single user not found test")
     void singleUserNotFoundTest() {
@@ -47,8 +47,8 @@ public class ApiTests {
     }
 
     @Test
-    @JiraIssues({@JiraIssue("RK-03")})
     @Tag("Api")
+    @JiraIssues({@JiraIssue("RK-03")})
     @Description("Main page")
     @DisplayName("Create test")
     void createTest() {
@@ -65,8 +65,8 @@ public class ApiTests {
     }
 
     @Test
-    @JiraIssues({@JiraIssue("RK-04")})
     @Tag("Api")
+    @JiraIssues({@JiraIssue("RK-04")})
     @Description("Main page")
     @DisplayName("Register successful test")
     void registerSuccessfulTest() {
@@ -82,8 +82,8 @@ public class ApiTests {
     }
 
     @Test
-    @JiraIssues({@JiraIssue("RK-05")})
     @Tag("Api")
+    @JiraIssues({@JiraIssue("RK-05")})
     @Description("Main page")
     @DisplayName("Authorization test")
     void loginSuccessfulTest() {
@@ -99,8 +99,8 @@ public class ApiTests {
     }
 
     @Test
-    @JiraIssues({@JiraIssue("RK-06")})
     @Tag("Api")
+    @JiraIssues({@JiraIssue("RK-06")})
     @Description("Main page")
     @DisplayName("Unsuccessful registration test")
     void unsuccessfulRegistrationTest() {
@@ -115,8 +115,8 @@ public class ApiTests {
     }
 
     @Test
-    @JiraIssues({@JiraIssue("RK-07")})
     @Tag("Api")
+    @JiraIssues({@JiraIssue("RK-07")})
     @Description("Main page")
     @DisplayName("Delete")
     void deleteUser() {

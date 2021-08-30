@@ -23,8 +23,8 @@ public class GeneratedTests extends TestBase {
     static final String BASE_URL = "https://bip.ru";
 
     @Test
-    @JiraIssues({@JiraIssue("RK-08")})
     @Tag("Web")
+    @JiraIssues({@JiraIssue("RK-08")})
     @DisplayName("Открытие и проверка надписи на сайте")
     void generatedTest() {
         step("Открыть 'https://bip.ru'", () -> {
@@ -38,8 +38,8 @@ public class GeneratedTests extends TestBase {
     }
 
     @Test
-    @JiraIssues({@JiraIssue("RK-09")})
     @Tag("Web")
+    @JiraIssues({@JiraIssue("RK-09")})
     @DisplayName("Заголовок страницы должен содержать текст заголовка")
     void titleTest() {
         step("Open url 'https://bip.ru'", () ->
@@ -54,8 +54,8 @@ public class GeneratedTests extends TestBase {
     }
 
     @Test
-    @JiraIssues({@JiraIssue("RK-10")})
     @Tag("Web")
+    @JiraIssues({@JiraIssue("RK-10")})
     @DisplayName("Тест сервиса 'Калькулятор ОСАГО'")
     void menuTest() {
         step("Тест сервиса 'Калькулятор ОСАГО'", () -> {
@@ -73,8 +73,8 @@ public class GeneratedTests extends TestBase {
     }
 
     @Test
-    @JiraIssues({@JiraIssue("RK-11")})
     @Tag("Web")
+    @JiraIssues({@JiraIssue("RK-11")})
     @DisplayName("Тест сервиса 'Коэффициенты ОСАГО'")
     void testCoefficients() {
         step("Тест сервиса 'Коэффициенты ОСАГО'", () -> {
@@ -84,8 +84,8 @@ public class GeneratedTests extends TestBase {
     }
 
     @Test
-    @JiraIssues({@JiraIssue("RK-12")})
     @Tag("Web")
+    @JiraIssues({@JiraIssue("RK-12")})
     @DisplayName("Тест сервиса 'Карта штрафов ГИБДД'")
     void testShtrafyOsagoMap() {
         step("Тест сервиса 'Карта штрафов ГИБДД'", () -> {
@@ -96,8 +96,8 @@ public class GeneratedTests extends TestBase {
     }
 
     @Test
-    @JiraIssues({@JiraIssue("RK-13")})
     @Tag("Web")
+    @JiraIssues({@JiraIssue("RK-13")})
     @DisplayName("Журнал страницы консоли не должен содержать ошибок")
     void consoleShouldNotHaveErrorsTest() {
         step("Open url 'https://bip.ru/'", () ->
