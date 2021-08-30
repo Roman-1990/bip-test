@@ -15,8 +15,8 @@ import static io.restassured.RestAssured.given;
 import static io.restassured.http.ContentType.JSON;
 import static org.hamcrest.core.Is.is;
 
-@Owner("roman")
 @Layer("Api")
+@Owner("roman")
 @Feature("Reqres")
 public class ApiTests {
 

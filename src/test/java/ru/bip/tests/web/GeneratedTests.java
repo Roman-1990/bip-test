@@ -15,8 +15,8 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
-@Owner("roman")
 @Layer("Web")
+@Owner("roman")
 @Feature("Web")
 public class GeneratedTests extends TestBase {
 
