@@ -24,7 +24,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Tag("Web")
-    @JiraIssues({@JiraIssue("RK-08")})
+    @JiraIssues({@JiraIssue("HOM-229")})
     @DisplayName("Открытие и проверка надписи на сайте")
     void generatedTest() {
         step("Открыть 'https://bip.ru'", () -> {
@@ -39,7 +39,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Tag("Web")
-    @JiraIssues({@JiraIssue("RK-09")})
+    @JiraIssues({@JiraIssue("HOM-229")})
     @DisplayName("Заголовок страницы должен содержать текст заголовка")
     void titleTest() {
         step("Open url 'https://bip.ru'", () ->
@@ -55,7 +55,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Tag("Web")
-    @JiraIssues({@JiraIssue("RK-10")})
+    @JiraIssues({@JiraIssue("HOM-229")})
     @DisplayName("Тест сервиса 'Калькулятор ОСАГО'")
     void menuTest() {
         step("Тест сервиса 'Калькулятор ОСАГО'", () -> {
@@ -74,7 +74,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Tag("Web")
-    @JiraIssues({@JiraIssue("RK-11")})
+    @JiraIssues({@JiraIssue("HOM-229")})
     @DisplayName("Тест сервиса 'Коэффициенты ОСАГО'")
     void testCoefficients() {
         step("Тест сервиса 'Коэффициенты ОСАГО'", () -> {
@@ -85,7 +85,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Tag("Web")
-    @JiraIssues({@JiraIssue("RK-12")})
+    @JiraIssues({@JiraIssue("HOM-229")})
     @DisplayName("Тест сервиса 'Карта штрафов ГИБДД'")
     void testShtrafyOsagoMap() {
         step("Тест сервиса 'Карта штрафов ГИБДД'", () -> {
@@ -97,7 +97,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Tag("Web")
-    @JiraIssues({@JiraIssue("RK-13")})
+    @JiraIssues({@JiraIssue("HOM-229")})
     @DisplayName("Журнал страницы консоли не должен содержать ошибок")
     void consoleShouldNotHaveErrorsTest() {
         step("Open url 'https://bip.ru/'", () ->

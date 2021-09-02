@@ -33,6 +33,7 @@ public class ApiTests {
                 .statusCode(200);
     }
 
+
     @Test
     @Tag("Api")
     @JiraIssues({@JiraIssue("RK-02")})
@@ -133,5 +134,17 @@ public class ApiTests {
         delete("https://reqres.in/api/users/" + response)
                 .then()
                 .statusCode(204);
+    }
+    @Test
+    @Tag("Api")
+    @JiraIssues({@JiraIssue("RK-14")})
+    @Description("Main page")
+    @DisplayName("Kalkulyator")
+    void bipKalkulatorTest() {
+        given()
+                .when()
+                .get("https://bip.ru/kalkulyator")
+                .then()
+                .statusCode(200);
     }
 }
