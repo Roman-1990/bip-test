@@ -11,7 +11,7 @@ ________________________________________________________________________________
 
 
 ## Проводится проверка работоспособности сайта и внутреннего функционала
-
+## UI
 ### Открывается главная страница:
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/homepage.png">
 
@@ -31,14 +31,15 @@ ________________________________________________________________________________
 
 4) Журналы консоли не должны содержать текст "SEVERE"
 
-
+## API
+1) Доступность сервиса "Калькулятор ОСАГО"
 
 ## Используемые параметры (по умолчанию) для запуска через Jenkins
 
 ### Для запуска удаленных тестов необходимо заполнить remote.properties или передать значение:
 
 * browser (default chrome)
-* browserVersion (default 89.0)
+* browserVersion (default 91.0)
 * browserSize (default 1920x1080)
 * browserMobileView (mobile device name, for example iPhone X)
 * remoteDriverUrl (selenoid.autotests.cloud)
@@ -87,7 +88,18 @@ allure serve build/allure-results
 ## Визуализация итогов пройденных тестов в Allure TestOps
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/grafana.png">
 
-:heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
-:blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
+## Визуализация тест кейсов в Allure TestOps
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/test cases.png">
 
+## Разнообразие дашбордов
 
+* Показатель прохождения тестов 
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/automation.png"> 
+* Показатель прохождения сессий
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/stages.png">
+* Показатель авторов тестов
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/users test.png">
+
+## Интеграция с Jira
+Отображение тест-кейсов
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/Jira.png">

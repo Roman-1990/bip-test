@@ -1,7 +1,6 @@
 package ru.bip.tests.web;
 
 import io.qameta.allure.Feature;
-import io.qameta.allure.Lead;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.Tag;
 import ru.bip.annotations.JiraIssue;
@@ -24,7 +23,6 @@ public class GeneratedTests extends TestBase {
     static final String BASE_URL = "https://bip.ru";
 
     @Test
-
     @JiraIssues({@JiraIssue("HOM-229")})
     @Tag("Web")
     @DisplayName("Открытие и проверка надписи на сайте")

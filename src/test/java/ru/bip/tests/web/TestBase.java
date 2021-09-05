@@ -5,7 +5,6 @@ import com.codeborne.selenide.logevents.SelenideLogger;
 import org.junit.jupiter.api.extension.ExtendWith;
 import ru.bip.config.Project;
 import ru.bip.helpers.AllureAttachments;
-
 import io.qameta.allure.junit5.AllureJunit5;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;

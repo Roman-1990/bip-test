@@ -1,8 +1,7 @@
 package ru.bip.helpers;
 
 import io.qameta.allure.Attachment;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 
 
 public class AllureAttachments {
