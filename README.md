@@ -86,20 +86,20 @@ allure serve build/allure-results
 
 
 ## Визуализация итогов пройденных тестов в Allure TestOps
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/grafana.png">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/grafana.PNG">
 
 ## Визуализация тест кейсов в Allure TestOps
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/test cases.png">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/test cases.PNG">
 
 ## Разнообразие дашбордов
 
 * Показатель прохождения тестов 
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/automation.png"> 
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/automation.PNG"> 
 * Показатель прохождения сессий
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/stages.png">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/stages.PNG">
 * Показатель авторов тестов
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/users test.png">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/users test.PNG">
 
 ## Интеграция с Jira
 Отображение тест-кейсов
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/Jira.png">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/Jira.PNG">
