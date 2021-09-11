@@ -61,7 +61,6 @@ public class GeneratedTests extends TestBase {
         step("Тест сервиса 'Калькулятор ОСАГО'", () -> {
             open(BASE_URL + "/kalkulyator");
 
-
             $(".InputSelect_arrow__xf645", 0).click();
             $(".Input_field__2Zdfy", 0).val("г Москва").pressEnter();
             $(".InputSelect_arrow__xf645", 1).click();
@@ -91,7 +90,6 @@ public class GeneratedTests extends TestBase {
         step("Тест сервиса 'Карта штрафов ГИБДД'", () -> {
             open(BASE_URL + "/shtrafy-osago-map");
             $(".LandingHeader_contentBlock__3aU9J").shouldHave(text("Карта штрафов ГИБДД — Москва"));
-
         });
     }
 

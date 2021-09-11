@@ -2,10 +2,7 @@ package ru.bip.helpers;
 
 import io.qameta.allure.Attachment;
 
-
-
 public class AllureAttachments {
-
 
     @Attachment(value = "{attachName}", type = "text/plain")
     private static String addMessage(String attachName, String text) {
