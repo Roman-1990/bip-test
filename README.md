@@ -2,10 +2,15 @@
   <img src="https://bip.ru/static/assets/image/logo-bip.svg" alt="Лого bip.ru" title="Bip" align="right" height="60" />
 </a>
 ### Для разработки автотестов использовались технологии и инструменты:
-![Intelij_IDEA](src/test/resources/files/icons/Intelij_IDEA.png)![Java](src/test/resources/files/icons/Java.png)![Selenide](src/test/resources/files/icons/Selenide.png)![Selenoid](src/test/resources/files/icons/Selenoid.png)![Gradle](src/test/resources/files/icons/Gradle.png)![JUnit5](src/test/resources/files/icons/JUnit5.png)![Allure Report](src/test/resources/files/icons/Allure_Report.png)![AllureTestOps](src/test/resources/files/icons/AllureTestOps.png)![Github](src/test/resources/files/icons/Github.png)![Jenkins](src/test/resources/files/icons/Jenkins.png)![Rest-Assured](src/test/resources/files/icons/Rest-Assured.png)![Telegram](src/test/resources/files/icons/Telegram.png)![Jira](src/test/resources/files/icons/Jira.png)
 
-IntelliJ IDEA, Java, Selenide, Selenoid, Gradle, JUnit5, Allure Report, Allure TestOps, Github, Jenkins, Rest-Assured,
-Telegram (reports), Jira.
+| Java | Gradle | Junit5 | Selenide | IntelliJ IDEA |
+|:------:|:----:|:----:|:------:|:------:|:--------:|
+| <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Java.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Gradle.svg" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Junit5.svg" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Selenide.svg" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Intelij_IDEA.svg" width="40" height="40"> |
+
+| GitHub | Jenkins | Selenoid | Allure Report | Allure TestOps | Telegram |
+|:--------:|:-------------:|:---------:|:-------:|:--------:|
+| <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Github.svg" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Jenkins.svg" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Selenoid.svg" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Allure Report.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/AllureTestOps.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Telegram.svg" width="40" height="40"> |
+
 #
 #
 # Сравните цены страховых и оформите полис ОСАГО онлайн на [bip.ru](https://bip.ru/)
