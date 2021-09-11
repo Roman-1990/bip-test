@@ -1,6 +1,9 @@
 <a href="https://bip.ru/">
   <img src="https://bip.ru/static/assets/image/logo-bip.svg" alt="Лого bip.ru" title="Bip" align="right" height="60" />
 </a>
+
+___
+
 ### Для разработки автотестов использовались технологии и инструменты:
 
 | Java | Gradle | Junit5 | Selenide | IntelliJ IDEA |
@@ -10,6 +13,8 @@
 | GitHub | Jenkins | Selenoid | Allure Report | Allure TestOps | Telegram |
 |:--------:|:-------------:|:---------:|:-------:|:--------:|
 | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Github.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Jenkins.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Selenoid.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Allure_Report.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/AllureTestOps.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Telegram.png" width="40" height="40"> |
+
+___
 
 #
 #
