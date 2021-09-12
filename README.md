@@ -103,7 +103,7 @@ allure serve build/allure-results
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/grafana.PNG">
 
 ## Визуализация тест кейсов в Allure TestOps
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/test cases.PNG">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/test_cases.PNG">
 
 ## Разнообразие дашбордов
 
