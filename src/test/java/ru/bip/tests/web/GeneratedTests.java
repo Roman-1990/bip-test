@@ -27,9 +27,8 @@ public class GeneratedTests extends TestBase {
     @Tag("Web")
     @DisplayName("Открытие и проверка надписи на сайте")
     void generatedTest() {
-        step("Открыть 'https://bip.ru'", () -> {
-            open(BASE_URL);
-        });
+        step("Открыть 'https://bip.ru'", () ->
+            open(BASE_URL));
 
         step("Проверить текст 'Узнайте цены на ОСАГО в  20 страховых и оформите полис онлайн'", () -> {
             $("#__next").shouldHave(text("Узнайте цены на ОСАГО в  20 страховых и оформите полис онлайн"));
@@ -67,7 +66,6 @@ public class GeneratedTests extends TestBase {
             $(".Input_field__2Zdfy", 1).val("120").pressEnter();
             $(".InputSelect_dropdown__386hc", 2).click();
             $(".Input_field__2Zdfy", 2).val("30").pressEnter();
-
         });
     }
 
