@@ -100,7 +100,7 @@ allure serve build/allure-results
 
 
 ## Визуализация итогов пройденных тестов в Allure TestOps
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/grafana.PNG">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/grafana.png">
 
 ## Визуализация тест кейсов в Allure TestOps
 <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/test_cases.PNG">
