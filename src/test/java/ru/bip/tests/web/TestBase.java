@@ -12,10 +12,8 @@ import org.junit.jupiter.api.BeforeAll;
 import ru.bip.helpers.DriverSettings;
 import ru.bip.helpers.DriverUtils;
 
-
 @ExtendWith({AllureJunit5.class})
 public class TestBase {
-
 
     @BeforeAll
     static void setUp() {
@@ -33,11 +31,8 @@ public class TestBase {
         AllureAttachments.addBrowserConsoleLogs();
 
         Selenide.closeWebDriver();
-
         if (Project.isVideoOn()) {
             AllureAttachments.addVideo(sessionId);
         }
     }
-
-
 }

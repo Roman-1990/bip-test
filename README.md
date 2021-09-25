@@ -8,11 +8,11 @@ ___
 
 | IntelliJ IDEA | Java | Gradle | Junit5 | Selenide |
 |:------:|:----:|:----:|:------:|:------:|
-| <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Intelij_IDEA.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Java.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Gradle.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/JUnit5.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Selenide.png" width="40" height="40"> |
+| <img src="https://github.com/Roman-1990/bip-test/blob/master/img/logo/Intelij_IDEA.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/img/logo/Java.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/img/logo/Gradle.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/img/logo/JUnit5.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/img/logo/Selenide.png" width="40" height="40"> |
 
 | GitHub | Jenkins | Selenoid | Allure Report | Allure TestOps | Telegram | Jira |
 |:------:|:----:|:----:|:------:|:------:|:--------:|:------:|
-| <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Github.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Jenkins.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Selenoid.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Allure_Report.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/AllureTestOps.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Telegram.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/logo/Jira.png" width="40" height="40"> |
+| <img src="https://github.com/Roman-1990/bip-test/blob/master/img/logo/Github.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/img/logo/Jenkins.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/img/logo/Selenoid.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/img/logo/Allure_Report.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/img/logo/AllureTestOps.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/img/logo/Telegram.png" width="40" height="40"> | <img src="https://github.com/Roman-1990/bip-test/blob/master/img/logo/Jira.png" width="40" height="40"> |
 
 ___
 
@@ -25,27 +25,32 @@ ________________________________________________________________________________
 
 
 ## Проводится проверка работоспособности сайта и внутреннего функционала
-## UI
+## UI Тесты
+* Калькулятор ОСАГО
+* Коэффициенты ОСАГО
+* Карта штрафов ГИБДД
+* Журналы консоли не должны содержать текст "SEVERE"
+
 ### Открывается главная страница:
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/homepage.png">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/img/homepage.png">
 
 ### Проверка заголовка страницы:
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/Page_title.gif">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/img/Page_title.gif">
 
 ### Проверка сервисов:
 1) Калькулятор ОСАГО
    
-   <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/test.gif">
+   <img src = "https://github.com/Roman-1990/bip-test/blob/master/img/test.gif">
 2) Коэффициенты ОСАГО
 
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/Coefficients.png">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/img/Coefficients.png">
 3) Карта штрафов ГИБДД
 
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/map.png">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/img/map.png">
 
 4) Журналы консоли не должны содержать текст "SEVERE"
 
-## API
+## API Тесты
 1) Доступность сервиса "Калькулятор ОСАГО"
 
 ## Используемые параметры (по умолчанию) для запуска через Jenkins
@@ -60,13 +65,13 @@ ________________________________________________________________________________
 * videoStorage (url address where you should get video)
 * threads (number of threads)
   
-  <img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/optionsJenkins.png">
+  <img src = "https://github.com/Roman-1990/bip-test/blob/master/img/optionsJenkins.png">
 
 Запуск тестов с заполненными local.properties:
 ```bash
 gradle clean test
 ```
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/terminal.gif">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/img/terminal.gif">
 
 Запускайте тесты с незаполненными локальными свойствами:
 ```bash
@@ -74,46 +79,46 @@ gradle clean -DremoteDriverUrl=https://user1:1234@selenoid.autotests.cloud/wd/hu
 ```
 
 
-## :robot:Отправка оповещения о прохождении теста в <img src = "https://starchenkov.pro/qa-guru/img/skills/Telegram.svg" width = "30">
+## :robot:Отправка уведомления о прохождении тестов в <img src = "https://starchenkov.pro/qa-guru/img/skills/Telegram.svg" width = "30">
 
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/telegrambot.png">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/img/telegrambot.png">
 
 Подавайте отчет allure report:
 ```bash
 allure serve build/allure-results
 ```
 
-## Анализ результатов через Allure Reports: <a href ="https://jenkins.autotests.cloud/job/bip-test/7/allure/#suites/389c19e545ecb9bf8310362676e286fe/3420db8c7e063d62/">
+## Анализируй результаты через Allure Reports: <a href ="https://jenkins.autotests.cloud/job/bip-test/7/allure/#suites/389c19e545ecb9bf8310362676e286fe/3420db8c7e063d62/">
 
 1) Просмотр последнего скриншота; :eyes: :framed_picture:
 2) Просмотр источника страницы; :eyes:
 3) Просмотр лога в консоли; :eyes:
 4) Просмотр видео прохождения теста; :eyes: :film_strip:
    </a>
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/allure.png">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/img/allure.png">
 
 
-## Разнообразие тестов (ручной, автоматизированный) в Allure TestOps
+## Типы тестов (ручные, автоматизированные) в Allure TestOps
 
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/AllureTestOps.png">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/img/AllureTestOps.png">
 
 
 
-## Визуализация итогов пройденных тестов в Allure TestOps
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/grafana.png">
+## Визуализация пройденных тестов в Allure TestOps
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/img/grafana.png">
 
 ## Визуализация тест кейсов в Allure TestOps
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/test_cases.PNG">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/img/test_cases.PNG">
 
-## Разнообразие дашбордов
+## Разнообразие дашбордов для визуализации самого необходимого
 
 * Показатель прохождения тестов 
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/automation.PNG"> 
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/img/automation.PNG"> 
 * Показатель прохождения сессий
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/stages.PNG">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/img/stages.PNG">
 * Показатель авторов тестов
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/users test.PNG">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/img/users test.PNG">
 
 ## Интеграция с Jira
 Отображение тест-кейсов
-<img src = "https://github.com/Roman-1990/bip-test/blob/master/src/test/resources/img/Jira.PNG">
+<img src = "https://github.com/Roman-1990/bip-test/blob/master/img/Jira.PNG">
