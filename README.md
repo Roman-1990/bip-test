@@ -24,7 +24,7 @@ ___
 _____________________________________________________________________________________
 
 
-## Проводится проверка работоспособности сайта и внутреннего функционала
+## Проводится автоматизированная проверка работоспособности сайта и внутренних сервисов
 ## UI Тесты
 * Калькулятор ОСАГО
 * Коэффициенты ОСАГО
@@ -88,7 +88,7 @@ gradle clean -DremoteDriverUrl=https://user1:1234@selenoid.autotests.cloud/wd/hu
 allure serve build/allure-results
 ```
 
-## Анализируй результаты через Allure Reports: <a href ="https://jenkins.autotests.cloud/job/bip-test/7/allure/#suites/389c19e545ecb9bf8310362676e286fe/3420db8c7e063d62/">
+## Анализируй результаты пройденных тестов через Allure Reports: <a href ="https://jenkins.autotests.cloud/job/bip-test/7/allure/#suites/389c19e545ecb9bf8310362676e286fe/3420db8c7e063d62/">
 
 1) Просмотр последнего скриншота; :eyes: :framed_picture:
 2) Просмотр источника страницы; :eyes:
