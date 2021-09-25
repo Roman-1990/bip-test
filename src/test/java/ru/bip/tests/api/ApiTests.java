@@ -12,7 +12,6 @@ import ru.bip.annotations.Layer;
 
 import static io.restassured.RestAssured.given;
 
-
 @Layer("Api")
 @Owner("roman")
 @Feature("Reqres")

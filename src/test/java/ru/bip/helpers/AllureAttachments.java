@@ -29,8 +29,6 @@ public class AllureAttachments {
                 + DriverUtils.getVideoUrl(sessionId)
                 + "' type='video/mp4'></video></body></html>";
     }
-
-
 }
 
 
