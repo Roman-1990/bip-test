@@ -56,7 +56,7 @@ public class GeneratedTests extends TestBase {
     @JiraIssues({@JiraIssue("HOM-229")})
     @Tag("Web")
     @DisplayName("Тест сервиса 'Калькулятор ОСАГО'")
-    void menuTest() {
+    void calculatorTest() {
         step("Открываем сервис 'Калькулятор ОСАГО'", () -> {
             open(BASE_URL + "/kalkulyator");
             step("Выбираем поле для ввода города", () ->
