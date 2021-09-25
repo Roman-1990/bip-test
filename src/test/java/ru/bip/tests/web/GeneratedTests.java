@@ -101,7 +101,8 @@ public class GeneratedTests extends TestBase {
         step("Открываем сервис 'Карта штрафов ГИБДД'", () -> {
             open(BASE_URL + "/shtrafy-osago-map");
             step("Проверяем работоспособность сервиса 'Карта штрафов ГИБДД'", () ->
-                    $(".LandingHeader_contentBlock__3aU9J").shouldHave(text("Карта штрафов ГИБДД — Москва"))
+                    $(".LandingHeader_contentBlock__3aU9J")
+                            .shouldHave(text("Карта штрафов ГИБДД — Москва"))
             );
         });
     }
