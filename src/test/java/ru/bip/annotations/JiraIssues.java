@@ -2,7 +2,6 @@ package ru.bip.annotations;
 
 import java.lang.annotation.*;
 
-
 @Documented
 @Inherited
 @Retention(RetentionPolicy.RUNTIME)
