@@ -11,6 +11,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
@@ -20,15 +21,13 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Feature("Issues")
 public class GeneratedTests extends TestBase {
 
-    static final String BASE_URL = "https://bip.ru";
-
     @Test
     @JiraIssues({@JiraIssue("HOM-229")})
     @Tag("Web")
     @DisplayName("Открытие и проверка надписи на сайте")
     void generatedTest() {
         step("Открыть 'https://bip.ru'", () ->
-                open(BASE_URL));
+                open(baseUrl));
 
         step("Проверить текст 'Узнайте цены на ОСАГО в  20 страховых и оформите полис онлайн'", () -> {
             $("#__next").shouldHave(text("Узнайте цены на ОСАГО в  20 страховых и оформите полис онлайн"));
@@ -42,7 +41,7 @@ public class GeneratedTests extends TestBase {
     @DisplayName("Заголовок страницы должен содержать текст заголовка")
     void titleTest() {
         step("Open url 'https://bip.ru'", () ->
-                open(BASE_URL));
+                open(baseUrl));
 
         step("Page title should have text 'Купить ОСАГО онлайн на 🚙 bip.ru'", () -> {
             String expectedTitle = "Купить ОСАГО онлайн на 🚙 bip.ru";
@@ -58,7 +57,7 @@ public class GeneratedTests extends TestBase {
     @DisplayName("Тест сервиса 'Калькулятор ОСАГО'")
     void calculatorTest() {
         step("Открываем сервис 'Калькулятор ОСАГО'", () -> {
-            open(BASE_URL + "/kalkulyator");
+            open(baseUrl + "/kalkulyator");
             step("Выбираем поле для ввода города", () ->
                     $(".InputSelect_arrow__xf645").click()
             );
@@ -86,7 +85,7 @@ public class GeneratedTests extends TestBase {
     @DisplayName("Тест сервиса 'Коэффициенты ОСАГО'")
     void testCoefficients() {
         step("Открываем сервис 'Коэффициенты ОСАГО'", () -> {
-            open(BASE_URL + "/osago");
+            open(baseUrl + "/osago");
             step("Проверяем работоспособность сервиса 'Коэффициенты ОСАГО'", () ->
                     $("#base").shouldHave(text("Базовая ставка"))
             );
@@ -99,7 +98,7 @@ public class GeneratedTests extends TestBase {
     @DisplayName("Тест сервиса 'Карта штрафов ГИБДД'")
     void testShtrafyOsagoMap() {
         step("Открываем сервис 'Карта штрафов ГИБДД'", () -> {
-            open(BASE_URL + "/shtrafy-osago-map");
+            open(baseUrl + "/shtrafy-osago-map");
             step("Проверяем работоспособность сервиса 'Карта штрафов ГИБДД'", () ->
                     $(".LandingHeader_contentBlock__3aU9J")
                             .shouldHave(text("Карта штрафов ГИБДД — Москва"))

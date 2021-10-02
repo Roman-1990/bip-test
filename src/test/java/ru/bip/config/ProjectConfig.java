@@ -9,12 +9,15 @@ import org.aeonbits.owner.Config;
 })
 public interface ProjectConfig extends Config {
 
+    @DefaultValue("https://%s:%s@selenoid.autotests.cloud/wd/hub/")
     @Key("selenoid.url")
     String selenoidUrl();
 
+    @DefaultValue("user1")
     @Key("username")
     String username();
 
+    @DefaultValue("1234")
     @Key("password")
     String password();
 
@@ -38,4 +41,7 @@ public interface ProjectConfig extends Config {
 
     @Key("videoStorage")
     String videoStorage();
+
+    @Key("baseUrl")
+    String baseUrl();
 }

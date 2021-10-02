@@ -1,5 +1,6 @@
 package ru.bip.tests.web;
 
+import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -19,6 +20,7 @@ public class TestBase {
     static void setUp() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         DriverSettings.configure();
+        Configuration.baseUrl = Project.config.baseUrl();
     }
 
     @AfterEach
